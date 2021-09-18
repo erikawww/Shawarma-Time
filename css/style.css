@@ -1,0 +1,59 @@
+/**********
+estilos generales 
+***************/
+body{
+   font-family: 'Mukta', sans-serif;
+   background-color: #fafafa;
+}
+div img{
+   margin: 80px 0 20px 0;
+}
+h1{
+   color:#B98D05;
+   font-size: 2.8rem;
+}
+header img{
+   height: 50px;
+   width: auto;
+}
+.list-inline{
+   display: flex;
+   justify-content: space-between;
+}
+h2{
+   color:#222;
+   font-size: 1rem;
+   margin-bottom: 50px;
+}
+/****************
+main content 
+****************/
+main{
+   padding: 0 40px;
+   margin-bottom:30px;
+}
+h3{
+   color:#B98D05;
+   font-size: 16px;
+}
+li{
+   font-size: 14px; 
+   color:#333;
+}
+.list-inline-item--price{
+   font-weight: 600;
+}
+footer ul{
+   margin-left:0;
+   display: flex;
+   justify-content: space-evenly;
+}
+footer ul li{
+   list-style: none;
+   font-size: 1.5rem;
+   color:#B98D05;
+}
+div p{
+   font-size: 0.9rem;
+   color:#222;
+}
