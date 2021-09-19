@@ -1,8 +1,12 @@
 /**********
 estilos generales 
 ***************/
+@font-face{
+   font-family: Sansation;
+   src: url(../fonts/Sansation_Regular.ttf)
+}
 body{
-   font-family: 'Mukta', sans-serif;
+   font-family: Sansation;
    background-color: #fafafa;
 }
 div img{
@@ -35,6 +39,7 @@ main{
 h3{
    color:#B98D05;
    font-size: 16px;
+   margin-bottom: 15px;
 }
 li{
    font-size: 14px; 
@@ -43,6 +48,9 @@ li{
 .list-inline-item--price{
    font-weight: 600;
 }
+/****************
+footer RRSS 
+****************/
 footer ul{
    margin-left:0;
    display: flex;
