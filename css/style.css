@@ -52,13 +52,13 @@ li{
 footer RRSS 
 ****************/
 footer ul{
-   margin-left:0;
+   padding-left:0;
    display: flex;
    justify-content: space-evenly;
 }
 footer ul li{
    list-style: none;
-   font-size: 1.5rem;
+   font-size: 2rem;
    color:#B98D05;
 }
 div p{
